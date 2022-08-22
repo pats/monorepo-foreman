@@ -1,5 +1,11 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.3.2
+
+### Patch Changes
+
+- 5d8ae2f: testing patches
+
 ## 0.3.1
 
 ### Patch Changes
