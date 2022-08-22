@@ -5,6 +5,7 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "@monorepo-foreman/amazing-things": "workspace:^0.3.2",
     "@monorepo-foreman/awesome-library": "workspace:*"
   },
   "devDependencies": {
