@@ -1,11 +1,11 @@
 {
-  "name": "@pats/monorepo-foreman__hello-world",
+  "name": "@monorepo-foreman/hello-world",
   "private": true,
   "scripts": {
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "@pats/monorepo-foreman__awesome-library": "workspace:*"
+    "@monorepo-foreman/awesome-library": "workspace:*"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"

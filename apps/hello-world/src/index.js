@@ -1,4 +1,4 @@
-const { iAmUiLibrary } = require('@pats/monorepo-foreman__awesome-library');
+const { iAmUiLibrary } = require('@monorepo-foreman/awesome-library');
 
 
 (() => {

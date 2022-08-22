@@ -1,5 +1,5 @@
 {
-  "name": "@pats/monorepo-foreman",
+  "name": "@monorepo-foreman",
   "version": "0.1.0",
   "private": true,
   "workspaces": [

@@ -10,10 +10,10 @@ importers:
 
   apps/hello-world:
     specifiers:
-      '@pats/monorepo-foreman__awesome-library': workspace:*
+      '@monorepo-foreman/awesome-library': workspace:*
       nodemon: ^2.0.19
     dependencies:
-      '@pats/monorepo-foreman__awesome-library': link:../../packages/awesome-library
+      '@monorepo-foreman/awesome-library': link:../../packages/awesome-library
     devDependencies:
       nodemon: 2.0.19
 
