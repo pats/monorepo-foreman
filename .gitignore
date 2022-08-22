@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+dist/
+/jest-report.xml
+reports
+
+.env
+.next/
+_next/
+logs/
+*.log

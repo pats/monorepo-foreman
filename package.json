@@ -1,0 +1,12 @@
+{
+  "name": "@pats/monorepo-foreman",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.24.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@pats/monorepo-foreman__awesome-library",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
