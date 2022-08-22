@@ -5,5 +5,8 @@
   "main": "src/index.js",
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
