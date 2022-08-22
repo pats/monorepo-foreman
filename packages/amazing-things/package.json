@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo-foreman/amazing-things",
+  "version": "0.3.2",
+  "description": "",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo-foreman/awesome-library": "workspace:^0.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
