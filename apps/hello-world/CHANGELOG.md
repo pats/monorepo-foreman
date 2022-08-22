@@ -4,6 +4,15 @@
 
 ### Patch Changes
 
+- Updated dependencies [cf794bf]
+- Updated dependencies [e122681]
+  - @monorepo-foreman/amazing-things@0.4.0
+  - @monorepo-foreman/awesome-library@0.4.0
+
+## null
+
+### Patch Changes
+
 - Updated dependencies [5d8ae2f]
   - @monorepo-foreman/awesome-library@0.3.2
 

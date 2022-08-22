@@ -1,5 +1,18 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.4.0
+
+### Minor Changes
+
+- cf794bf: Some desc
+- e122681: some changelog summary
+
+### Patch Changes
+
+- Updated dependencies [cf794bf]
+- Updated dependencies [e122681]
+  - @monorepo-foreman/awesome-library@0.4.0
+
 ## 0.3.2
 
 ### Patch Changes

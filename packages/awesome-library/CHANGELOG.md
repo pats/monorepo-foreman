@@ -1,5 +1,12 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.4.0
+
+### Minor Changes
+
+- cf794bf: Some desc
+- e122681: some changelog summary
+
 ## 0.3.2
 
 ### Patch Changes
