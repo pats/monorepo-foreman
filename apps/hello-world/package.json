@@ -9,5 +9,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "version": null
 }
