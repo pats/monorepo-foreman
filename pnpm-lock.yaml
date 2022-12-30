@@ -10,7 +10,7 @@ importers:
 
   apps/hello-world:
     specifiers:
-      '@monorepo-foreman/amazing-things': workspace:^0.4.0
+      '@monorepo-foreman/amazing-things': workspace:^0.4.1
       '@monorepo-foreman/awesome-library': workspace:*
       nodemon: ^2.0.19
     dependencies:
@@ -21,7 +21,7 @@ importers:
 
   packages/amazing-things:
     specifiers:
-      '@monorepo-foreman/awesome-library': workspace:^0.4.0
+      '@monorepo-foreman/awesome-library': workspace:^0.5.0
     dependencies:
       '@monorepo-foreman/awesome-library': link:../awesome-library
 
