@@ -9,3 +9,6 @@ reports
 _next/
 logs/
 *.log
+
+~/.npmrc
+.npmrc
