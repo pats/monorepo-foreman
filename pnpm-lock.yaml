@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
 
@@ -10,7 +10,7 @@ importers:
 
   apps/hello-world:
     specifiers:
-      '@monorepo-foreman/amazing-things': workspace:^0.3.2
+      '@monorepo-foreman/amazing-things': workspace:^0.4.0
       '@monorepo-foreman/awesome-library': workspace:*
       nodemon: ^2.0.19
     dependencies:
@@ -21,7 +21,7 @@ importers:
 
   packages/amazing-things:
     specifiers:
-      '@monorepo-foreman/awesome-library': workspace:^0.3.2
+      '@monorepo-foreman/awesome-library': workspace:^0.4.0
     dependencies:
       '@monorepo-foreman/awesome-library': link:../awesome-library
 
@@ -539,10 +539,16 @@ packages:
       stream-transform: 2.1.3
     dev: true
 
-  /debug/3.2.7:
+  /debug/3.2.7_supports-color@5.5.0:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.1.3
+      supports-color: 5.5.0
     dev: true
 
   /decamelize-keys/1.1.0:
@@ -1181,7 +1187,7 @@ packages:
     requiresBuild: true
     dependencies:
       chokidar: 3.5.3
-      debug: 3.2.7
+      debug: 3.2.7_supports-color@5.5.0
       ignore-by-default: 1.0.1
       minimatch: 3.1.2
       pstree.remy: 1.1.8
