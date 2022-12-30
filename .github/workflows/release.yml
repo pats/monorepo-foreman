@@ -23,10 +23,32 @@ jobs:
       - name: Install pnpm
         run: npm i -g pnpm
 
+      - name: setup pnpm config
+        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+
       - name: Install Dependencies
         run: pnpm i
 
+#      - name: Create .npmrc
+#        run: |
+#          cat << EOF > "$HOME/.npmrc"
+#            //gppracuj.pkgs.visualstudio.com/_packaging/gp/npm/registry/:username=VssSessionToken
+#            //gppracuj.pkgs.visualstudio.com/_packaging/gp/npm/registry/:_password="$NPM_TOKEN"
+#            //gppracuj.pkgs.visualstudio.com/_packaging/gp/npm/registry/:email=not-used@example.com
+#            @grupa-pracuj:registry=https://gppracuj.pkgs.visualstudio.com/_packaging/gp/npm/registry/
+#          EOF
+#        env:
+#          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Setup npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+
       - name: Create Release Pull Request
         uses: changesets/action@v1
+        with:
+          version: pnpm ci:version
+          commit: "chore: update versions"
+          title: "chore: update versions"
+          publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
