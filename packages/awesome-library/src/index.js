@@ -1,5 +1,5 @@
 const iAmUiLibrary = () => {
-    return `I am UI library`;
+    return `I am UI library yay!`;
 };
 
 
