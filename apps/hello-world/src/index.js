@@ -4,6 +4,5 @@ const { getAmazingThings } = require('@monorepo-foreman/amazing-things');
 (() => {
     const value = iAmUiLibrary();
     console.log(value);
-
     console.log('AT', getAmazingThings());
 })();
