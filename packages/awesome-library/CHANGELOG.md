@@ -1,5 +1,11 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.5.0
+
+### Minor Changes
+
+- 326b264: Packages awesome libchange
+
 ## 0.4.0
 
 ### Minor Changes
