@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- a6cc445: publicate hello-world app
+
+## null
+
+### Patch Changes
+
 - 5f5f2dd: Tidyings 3.2
 - Updated dependencies [40340d0]
 - Updated dependencies [f5a04c4]
