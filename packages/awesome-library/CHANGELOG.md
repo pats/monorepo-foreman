@@ -1,5 +1,11 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.5.3
+
+### Patch Changes
+
+- f5a04c4: pr4
+
 ## 0.5.2
 
 ### Patch Changes
