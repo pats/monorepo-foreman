@@ -1,5 +1,11 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.5.1
+
+### Patch Changes
+
+- a2f3e76: Some minor changes part 2
+
 ## 0.5.0
 
 ### Minor Changes
