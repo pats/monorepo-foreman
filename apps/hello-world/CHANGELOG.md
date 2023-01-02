@@ -1,5 +1,13 @@
 # @pats/monorepo-foreman\_\_hello-world
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies [c9abb2b]
+  - @monorepo-foreman/amazing-things@0.4.4
+  - @monorepo-foreman/awesome-library@0.5.4
+
 ## 0.1.1
 
 ### Patch Changes

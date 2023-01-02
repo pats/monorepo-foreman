@@ -1,5 +1,13 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.4.4
+
+### Patch Changes
+
+- c9abb2b: Some changes
+- Updated dependencies [c9abb2b]
+  - @monorepo-foreman/awesome-library@0.5.4
+
 ## 0.4.3
 
 ### Patch Changes
