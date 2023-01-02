@@ -6,5 +6,7 @@ const { getAmazingThings } = require('@monorepo-foreman/amazing-things');
     console.log(value);
 
 
+
+    //tidyings 3.2
     console.log('AT', getAmazingThings());
 })();
