@@ -1,11 +1,11 @@
 {
   "name": "@monorepo-foreman/hello-world",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "@monorepo-foreman/amazing-things": "workspace:^0.4.3",
+    "@monorepo-foreman/amazing-things": "workspace:^0.4.4",
     "@monorepo-foreman/awesome-library": "workspace:*"
   },
   "devDependencies": {
