@@ -4,6 +4,16 @@
 
 ### Patch Changes
 
+- 5f5f2dd: Tidyings 3.2
+- Updated dependencies [40340d0]
+- Updated dependencies [f5a04c4]
+  - @monorepo-foreman/amazing-things@0.4.3
+  - @monorepo-foreman/awesome-library@0.5.3
+
+## null
+
+### Patch Changes
+
 - Updated dependencies [a537afd]
   - @monorepo-foreman/amazing-things@0.4.2
   - @monorepo-foreman/awesome-library@0.5.2

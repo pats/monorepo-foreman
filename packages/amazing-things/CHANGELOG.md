@@ -1,5 +1,13 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.4.3
+
+### Patch Changes
+
+- 40340d0: Tidyings 3.1
+- Updated dependencies [f5a04c4]
+  - @monorepo-foreman/awesome-library@0.5.3
+
 ## 0.4.2
 
 ### Patch Changes
