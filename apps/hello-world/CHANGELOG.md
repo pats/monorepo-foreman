@@ -1,5 +1,11 @@
 # @pats/monorepo-foreman\_\_hello-world
 
+## 0.1.1
+
+### Patch Changes
+
+- c256f1c: publicate hello-world app
+
 ## null
 
 ### Patch Changes
