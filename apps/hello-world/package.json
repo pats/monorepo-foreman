@@ -1,6 +1,5 @@
 {
   "name": "@monorepo-foreman/hello-world",
-  "private": true,
   "scripts": {
     "start": "nodemon src/index.js"
   },
@@ -10,6 +9,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  },
-  "version": null
+  }
 }
