@@ -1,5 +1,11 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.5.2
+
+### Patch Changes
+
+- a537afd: pfff
+
 ## 0.5.1
 
 ### Patch Changes

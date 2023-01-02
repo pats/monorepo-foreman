@@ -1,5 +1,13 @@
 # @pats/monorepo-foreman\_\_awesome-library
 
+## 0.4.2
+
+### Patch Changes
+
+- a537afd: pfff
+- Updated dependencies [a537afd]
+  - @monorepo-foreman/awesome-library@0.5.2
+
 ## 0.4.1
 
 ### Patch Changes
