@@ -1,9 +1,8 @@
 name: Release
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [opened, reopened]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -43,10 +42,8 @@ jobs:
       - name: Setup npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
 
-      - name: Create Release Pull Request
-        uses: changesets/action@v1
-        with:
-          version: pnpm ci:version
-          publish: pnpm ci:publish
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Branch name
+        run: echo running on branch ${GITHUB_REF##*/}
+        
+#      - name: changeset pre enter
+#        run: pnpm run changeset pre enter
