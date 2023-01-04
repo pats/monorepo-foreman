@@ -12,6 +12,7 @@ jobs:
     uses: "./.github/workflows/setup-env.yml"
 
   publish-release:
+    runs-on: ubuntu-latest
     steps:
 #      - name: Create .npmrc
 #        run: |
