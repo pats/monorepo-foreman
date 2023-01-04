@@ -1,10 +1,11 @@
-name: Prepare
+name: Setup environment
 
 on:
   workflow_call:
 
 jobs:
   setup-env:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
