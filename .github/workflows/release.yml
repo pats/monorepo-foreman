@@ -8,27 +8,10 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+  setup-env:
+    uses: "./.github/workflows/setup-env.yml"
 
-      - name: Setup Node.js 18
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install pnpm
-        run: npm i -g pnpm
-
-      - name: setup pnpm config
-        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
-
-      - name: Install Dependencies
-        run: pnpm i
-
+  publish-release:
 #      - name: Create .npmrc
 #        run: |
 #          cat << EOF > "$HOME/.npmrc"
