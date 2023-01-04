@@ -12,6 +12,7 @@ jobs:
     uses: "./.github/workflows/setup-env.yml"
 
   publish-release:
+    steps:
 #      - name: Create .npmrc
 #        run: |
 #          cat << EOF > "$HOME/.npmrc"
