@@ -8,7 +8,7 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  setup-env:
+  release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -40,7 +40,7 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
-            
+
 #      - name: Create .npmrc
 #        run: |
 #          cat << EOF > "$HOME/.npmrc"
