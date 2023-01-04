@@ -9,10 +9,8 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   setup-env:
-    uses: "./.github/workflows/setup-env.yml"
-
-  publish-release:
     runs-on: ubuntu-latest
+    uses: "./.github/workflows/setup-env.yml"
     steps:
 #      - name: Create .npmrc
 #        run: |
