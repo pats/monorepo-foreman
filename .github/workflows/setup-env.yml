@@ -1,5 +1,8 @@
 name: Prepare
 
+on:
+  workflow_call:
+
 jobs:
   setup-env:
     steps:
