@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "testing-prerelease",
+  "initialVersions": {
+    "@monorepo-foreman/hello-world": "0.1.2",
+    "@monorepo-foreman/amazing-things": "0.4.4",
+    "@monorepo-foreman/awesome-library": "0.5.4"
+  },
+  "changesets": []
+}
